@@ -110,6 +110,7 @@ img{max-width:100%}
 .about{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,72px)}
 .about > *{min-width:0}
 @media (max-width:820px){.about{grid-template-columns:1fr}}
+.about-lines span{display:block;font-size:clamp(17px,2.2vw,22px)}.about-lines .gold{color:var(--brass);font-weight:600}
 .about p{color:var(--ink-2);max-width:62ch;margin:0 0 14px;font-size:17px}
 .quote{font-family:var(--f-display);font-size:clamp(24px,3.2vw,34px);color:var(--cream);line-height:1.45;margin:18px 0 0;padding-inline-start:20px;border-inline-start:3px solid var(--brass)}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);margin-top:28px;border:1px solid var(--line)}
@@ -338,8 +339,8 @@ dialog::backdrop{background:var(--indigo-deep)}
       </div>
       <figure class="hero-figure">
         <span class="corner c1"></span><span class="corner c2"></span>
-        <img src="img/t-aerial.jpg" alt="فندق تاور من تصميم مسلم عقيل: برج أبيض بأشرطة منحنية" width="1600" height="1235">
-        <figcaption><span>فندق تاور · منظور جوي</span><span>Revit + D5 Render</span></figcaption>
+        <img src="img/t-low.jpg" alt="فندق تاور من مستوى الأرض نحو القمة" width="1600" height="1235">
+        <figcaption><span>فندق تاور · من مستوى الأرض</span><span>Revit + D5 Render</span></figcaption>
       </figure>
     </div>
     <div class="tblock">
@@ -359,19 +360,17 @@ dialog::backdrop{background:var(--indigo-deep)}
     <div class="about">
       <div>
         <span class="eyebrow">About · من هو</span>
-        <h2 class="h2" data-reveal>طالب بدرجات عالية، وعمل بمستوى مكتب هندسي</h2>
-        <p class="quote">يبدأ من الكتلة البيضاء، ثم يشقّها بالضوء والظل.</p>
+        <h2 class="h2" data-reveal>مسلم عقيل سعدون</h2>
+        <div class="quote about-lines"><span>طالب في المرحلة الرابعة – قسم الهندسة المعمارية</span><span>جامعة كربلاء</span><span class="gold">البورتفوليو 2026</span></div>
       </div>
       <div>
-        <p>مسلم عقيل طالب في المرحلة الرابعة بقسم هندسة العمارة في كلية الهندسة، جامعة كربلاء. أنجز ثلاثة مشاريع أكاديمية كاملة، منها تصميم مبنى قسم هندسة العمارة وبرج فندقي، من النمذجة في Revit حتى الإظهار الواقعي في D5 Render، وحصل فيها على درجات مميزة.</p>
-        <p>يميل إلى الكتل البيضاء النقية والمنحنيات الواسعة: أفنية دائرية بسقوف زجاجية، ممرات حلزونية تربط الطوابق، وواجهات تشقّها خطوط مائلة وكاسرات خشبية تكسر الشمس.</p>
-        <p>ورغم أنه ما يزال طالباً، فهو جاهز للعمل على مشاريع واقعية: تصميم، نمذجة، أو إظهار لمشروع قائم.</p>
+        <p>أمتلك مهارات في استخدام عدد من البرامج المعمارية، أبرزها Revit وAutoCAD وD5 Render، كما أنجزت بعض الكورسات، والتي أسهمت في تطوير قدراتي العملية في التصميم والإظهار المعماري.</p>
       </div>
     </div>
     <div class="bento">
       <figure class="bt bt-photo" data-reveal>
-        <img src="img/p1-plaza.jpg" alt="الساحة المدرجة الدائرية عند مدخل مبنى قسم هندسة العمارة" width="1600" height="1247" loading="lazy">
-        <figcaption class="glass">الساحة المدرجة · مشروع قسم هندسة العمارة</figcaption>
+        <img src="img/p2-d.jpg" alt="المنحدرات الخشبية والمدخل عن قرب" width="1600" height="1247" loading="lazy">
+        <figcaption class="glass">المنحدرات الخشبية والمدخل · مشروع قسم هندسة العمارة</figcaption>
       </figure>
       <div class="bt bt-gold" data-reveal style="--i:1"><b data-count="3">3</b><span>مشاريع أكاديمية كاملة بدرجات مميزة</span></div>
       <div class="bt" data-reveal style="--i:2"><b dir="ltr">Revit</b><span>نموذج BIM كامل، ومنه المساقط والواجهات والمقاطع.</span></div>
